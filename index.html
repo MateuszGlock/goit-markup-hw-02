@@ -15,25 +15,40 @@
   </head>
   <body>
     <header class="heading">
-      <nav>
-        <a href="https://mateuszglock.github.io/goit-markup-hw-02/"
-          ><h3 class="logo">
-            Web<span class="logo-second link">Studio</span>
-          </h3></a
-        >
-        <a href="/agencja"><h4 class="agency link">Agencja</h4></a>
-        <a href="/goit-markup-hw-02/portfolio.html"
-          ><h4 class="portfolio link">Portfolio</h4></a
-        >
-        <a href="/kontakt"><h4 class="contact link">Kontakt</h4></a>
+      <nav class="menu">
+        <ul class="menu">
+          <li>
+            <a href="https://mateuszglock.github.io/goit-markup-hw-02/"
+              ><h3 class="logo">
+                Web<span class="logo-second link">Studio</span>
+              </h3></a
+            >
+          </li>
+          <li>
+            <a href="/agencja"><h4 class="agency link">Agencja</h4></a>
+          </li>
+          <li>
+            <a href="/goit-markup-hw-02/portfolio.html"
+              ><h4 class="portfolio link">Portfolio</h4></a
+            >
+          </li>
+          <li>
+            <a href="/kontakt"><h4 class="contact link">Kontakt</h4></a>
+          </li>
+        </ul>
       </nav>
-
-      <a class="header-mail link" href="mail:info@devstudio.com"
-        >info@devstudio.com</a
-      ><br />
-      <a class="header-phone link" href="tel:+48-111-111-111"
-        >+48 111 111 111</a
-      >
+      <ul class="contact-list">
+        <li>
+          <a class="header-mail link" href="mail:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-phone link" href="tel:+48-111-111-111"
+            >+48 111 111 111</a
+          >
+        </li>
+      </ul>
     </header>
     <main class="central">
       <div class="primary-part">
@@ -41,85 +56,89 @@
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-        <button class="orderButton button" type="button">
-          <span class="orderButtonText">Zamów usługę</span>
-        </button>
+        <button class="button" type="button">Zamów usługę</button>
       </div>
       <div class="advantages">
-        <ul class="nobull">
+        <ul class="adv-list">
           <li>
-            <div class="first-text">
+            <div class="advantage">
               <h5 class="advantages-tittle">LOREM IPSUM</h5>
-              <pre class="advantages-text first-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </pre
-              >
+
+              <p class="advantages-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
             </div>
           </li>
           <li>
-            <div class="first-text">
+            <div class="advantage">
               <h5 class="advantages-tittle">LOREM IPSUM</h5>
-              <pre class="advantages-text first-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </pre
-              >
+
+              <p class="advantages-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
             </div>
           </li>
           <li>
-            <h5 class="advantages-tittle">LOREM IPSUM</h5>
-            <pre class="advantages-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </pre>
+            <div class="advantage">
+              <h5 class="advantages-tittle">LOREM IPSUM</h5>
+
+              <p class="advantages-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
           <li>
-            <h5 class="advantages-tittle">LOREM IPSUM</h5>
-            <pre class="advantages-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-          </pre
-            >
+            <div class="advantage">
+              <h5 class="advantages-tittle">LOREM IPSUM</h5>
+
+              <p class="advantages-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
         </ul>
-        <div class="occupation">
-          <h2 class="occupation-text">Czym się zajmujemy</h2>
-          <ul class="nobull">
-            <li>
-              <img
-                class="occupation-photo-1"
-                src="images/Keyboard.jpg"
-                alt="Osoba pisząca na klawiaturze przy tablecie. 
-                Obok znajduje się układ blokowy na kartce papieru"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                class="occupation-photo-2"
-                src="images/ContentLayout.jpg"
-                alt="Osoba przy komputerze z telefonem wybierająca różne układy treści"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                class="occupation-photo-3"
-                src="images/ColorPalette.jpg"
-                alt="Tablet z paletą kolorów"
-                width="370"
-                height="294"
-              />
-            </li>
-          </ul>
-        </div>
       </div>
+      <div class="occupation">
+        <h2 class="occupation-text">Czym się zajmujemy</h2>
+        <ul class="occupation-list">
+          <li>
+            <img
+              class="occupation-photo-1"
+              src="images/Keyboard.jpg"
+              alt="Osoba pisząca na klawiaturze przy tablecie. 
+                Obok znajduje się układ blokowy na kartce papieru"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              class="occupation-photo-2"
+              src="images/ContentLayout.jpg"
+              alt="Osoba przy komputerze z telefonem wybierająca różne układy treści"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              class="occupation-photo-3"
+              src="images/ColorPalette.jpg"
+              alt="Tablet z paletą kolorów"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </div>
+
       <div class="team-section">
         <h2 class="team-text">Nasz zespół</h2>
-        <ul class="nobull">
+        <ul class="team-list">
           <li>
             <div class="team-member team-member-1st-box">
               <img
