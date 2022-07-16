@@ -55,6 +55,9 @@ body {
 .logo-second {
   color: var(--logo-second-color);
 }
+.link {
+  text-decoration: none;
+}
 .link:hover {
   color: var(--link-color);
 }
@@ -155,7 +158,8 @@ body {
   border-radius: 4px;
   line-height: 1.2;
 
-  color: var(--text-color);
+  color: var(--central-background);
+  background: var(--hover-button-background);
   font-style: normal;
   font-size: 16px;
   line-height: 1.62;
@@ -164,11 +168,7 @@ body {
   letter-spacing: 0.03em;
   font-weight: 700;
 }
-.button:hover {
-  background: var(--hover-button-background);
-  color: var(--central-background);
-  cursor: pointer;
-}
+
 .orderButtonText {
   width: 117px;
   height: 30px;
